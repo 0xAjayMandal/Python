@@ -54,6 +54,29 @@ print('x=',x)
 x<<=5
 print('x=',x)
 
+#logical operators
+print(x<100 and x>25)
+print(y<30 or y<20)
+print(not(z>30))
+
+#identity operators
+a=['Hello','World']
+b=['Hello','World']
+print(a is b)
+print(a is not b)
+
+#membership operators
+c='World'
+print(c in a)
+print('Python' not in b)
+
+#bitwise operator
+print(y&z)
+print(y|z)
+print(y^z)
+print(~z)
+print(y<<z)
+print(y>>z)
 
 #5b
 rate=12
